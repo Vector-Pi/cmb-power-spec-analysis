@@ -2,7 +2,7 @@
 
 A Python pipeline for downloading, processing, and analysing Cosmic Microwave Background (CMB) temperature and polarisation maps from the Planck 2018 public data release, extracting angular power spectra, and comparing to theoretical $\Lambda$CDM predictions.
 
-Built and maintained by [Om Arora](https://vector-pi.github.io/omarora/).
+
 
 ---
 
@@ -167,7 +167,3 @@ This pipeline was developed partly to build intuition for the CMB data in suppor
 ## License
 
 MIT. See `LICENSE`.
-
-## Author
-
-**Om Arora** · [omarora.netlify.app](https://omarora.netlify.app) · [Vector-Pi](https://github.com/Vector-Pi)
