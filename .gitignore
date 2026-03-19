@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+.env
+.venv
+# Planck data files (large; download fresh from PLA)
+data/planck/*.fits
+data/planck/*.fit
+data/planck/*.txt
+*.pkl
+*.png
+*.pdf
+*.svg
+results/
+.DS_Store
+.pytest_cache/
+.coverage
+.mypy_cache/

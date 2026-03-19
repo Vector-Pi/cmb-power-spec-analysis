@@ -1,0 +1,18 @@
+# Planck Legacy Archive — direct download URLs
+# If PlanckDownloader fails (PLA occasionally times out), download manually
+# from the URLs below and place files in data/planck/
+
+# Planck 2018 SMICA CMB map (NSIDE=2048, ~200 MB)
+# Temperature + polarisation (IQU)
+https://pla.esac.esa.int/pla/aio/product-action?MAP.MAP_ID=COM_CMB_IQU-smica_2048_R3.00_full.fits
+
+# Galactic plane masks (NSIDE=2048, ~50 MB)
+# Contains 6 masks at 60%, 70%, 80%, 90%, 97%, 99% sky fractions
+# field=0: 60%, field=1: 70%, field=2: 80%, field=3: 90%, field=4: 97%, field=5: 99%
+https://pla.esac.esa.int/pla/aio/product-action?MAP.MAP_ID=HFI_Mask_GalPlane-apo0_2048_R2.00.fits
+
+# Official Planck TT power spectrum (for validation)
+https://pla.esac.esa.int/pla/aio/product-action?COSMOLOGY.FILE_ID=COM_PowerSpect_CMB-TT-full_R3.01.txt
+
+# Alternative mirror (ESA)
+# https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/maps/component-maps/cmb/
